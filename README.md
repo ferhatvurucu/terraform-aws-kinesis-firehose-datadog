@@ -45,7 +45,7 @@ tags   | Map of tags to put on the resource  |  map    |   ```{}```     | no
 s3_bucket_name   | Name of the s3 bucket Kinesis Firehose uses for backups  |  string    |   -     | yes
 kinesis_firehose_role_name   | Name of IAM Role for the Kinesis Firehose  |  string    |   ```KinesisFirehoseDatadogRole```     | no
 content_encoding   | Valid values are NONE and GZIP  |  string    |   ```NONE```     | no
-s3_backup_mode   | Valid values are FailedEventsOnly and AllEvents  |  string    |   ```FailedEventsOnly```     | no
+s3_backup_mode   | Valid values are FailedDataOnly and AllData  |  string    |   ```FailedDataOnly```     | no
 
 # Outputs
 

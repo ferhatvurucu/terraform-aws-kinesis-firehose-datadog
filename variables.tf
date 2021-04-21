@@ -50,6 +50,6 @@ variable "content_encoding" {
 }
 
 variable "s3_backup_mode" {
-  description = "Valid values are FailedEventsOnly and AllEvents"
-  default = "FailedEventsOnly"
+  description = "Valid values are FailedDataOnly and AllData"
+  default = "FailedDataOnly"
 }
