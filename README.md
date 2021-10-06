@@ -1,6 +1,6 @@
 # terraform-aws-kinesis-firehose-datadog
 
-This module configures Amazon Kinesis Firehose to send the log data to Datadog using HTTP Endpoint.
+A terraform module to configure Amazon Kinesis Firehose and send the log data to Datadog using HTTP Endpoint.
 
 # Usage
 
